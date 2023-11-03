@@ -1,9 +1,9 @@
 package com.example.api.controller;
 
-import com.example.api.domain.customer.dto.DataCreateCustomer;
-import com.example.api.domain.customer.dto.DataListCustomer;
-import com.example.api.domain.customer.dto.DataUpdateCustomer;
-import com.example.api.domain.customer.dto.DataViewCustomer;
+import com.example.api.service.dto.customer.DataCreateCustomer;
+import com.example.api.service.dto.customer.DataListCustomer;
+import com.example.api.service.dto.customer.DataUpdateCustomer;
+import com.example.api.service.dto.customer.DataViewCustomer;
 import com.example.api.service.CustomerService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;

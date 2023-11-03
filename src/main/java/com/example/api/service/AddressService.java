@@ -1,7 +1,7 @@
 package com.example.api.service;
 
 import com.example.api.domain.address.Address;
-import com.example.api.service.dto.ViaCep;
+import com.example.api.service.dto.viacep.ViaCep;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

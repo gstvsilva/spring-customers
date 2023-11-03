@@ -1,9 +1,9 @@
 package com.example.api.service;
 
 import com.example.api.domain.customer.Customer;
-import com.example.api.domain.customer.dto.DataCreateCustomer;
-import com.example.api.domain.customer.dto.DataListCustomer;
-import com.example.api.domain.customer.dto.DataUpdateCustomer;
+import com.example.api.service.dto.customer.DataCreateCustomer;
+import com.example.api.service.dto.customer.DataListCustomer;
+import com.example.api.service.dto.customer.DataUpdateCustomer;
 import com.example.api.repository.AddressRepository;
 import com.example.api.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;

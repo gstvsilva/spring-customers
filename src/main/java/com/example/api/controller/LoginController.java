@@ -1,9 +1,9 @@
 package com.example.api.controller;
 
-import com.example.api.infra.security.DataTokenJWT;
+import com.example.api.infra.security.dto.DataTokenJWT;
 import com.example.api.infra.security.TokenService;
 import jakarta.validation.Valid;
-import com.example.api.domain.user.dto.DataAuth;
+import com.example.api.service.dto.auth.DataAuth;
 import com.example.api.domain.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

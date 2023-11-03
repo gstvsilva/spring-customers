@@ -1,8 +1,8 @@
 package com.example.api.domain.customer;
 
 import com.example.api.domain.address.Address;
-import com.example.api.domain.customer.dto.DataCreateCustomer;
-import com.example.api.domain.customer.dto.DataUpdateCustomer;
+import com.example.api.service.dto.customer.DataCreateCustomer;
+import com.example.api.service.dto.customer.DataUpdateCustomer;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;

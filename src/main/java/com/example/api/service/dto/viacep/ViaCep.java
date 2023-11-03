@@ -1,4 +1,4 @@
-package com.example.api.service.dto;
+package com.example.api.service.dto.viacep;
 
 public record ViaCep (
     String cep,

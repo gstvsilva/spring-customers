@@ -1,8 +1,8 @@
 package com.example.api.controller;
 
 import com.example.api.domain.address.Address;
-import com.example.api.domain.customer.dto.DataCreateCustomer;
-import com.example.api.domain.customer.dto.DataUpdateCustomer;
+import com.example.api.service.dto.customer.DataCreateCustomer;
+import com.example.api.service.dto.customer.DataUpdateCustomer;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
