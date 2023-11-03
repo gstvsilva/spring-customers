@@ -31,7 +31,7 @@ class AddressServiceTest {
     @Test
     @DisplayName("must do nothing when zipcode is empty")
     @WithMockUser
-    void create_scenario1() {
+    void loadByZipcode_scenario1() {
         var address = new Address();
         address.setZipcode("");
 
@@ -42,7 +42,7 @@ class AddressServiceTest {
     @Test
     @DisplayName("must set address when zipcode is not empty")
     @WithMockUser
-    void create_scenario2() {
+    void loadByZipcode_scenario2() {
         var address = new Address();
         address.setZipcode("80320000");
 

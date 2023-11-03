@@ -17,11 +17,11 @@ public class AddressService {
         }
 
         ViaCep viaCep = viaCepService.get(address.getZipcode());
-        if (viaCep != null && viaCep.getCep() != null) {
-            address.setStreet(viaCep.getLogradouro());
-            address.setState(viaCep.getUf());
-            address.setCity(viaCep.getLocalidade());
-            address.setNeighborhood(viaCep.getBairro());
+        if (viaCep != null && viaCep.cep() != null) {
+            address.setStreet(viaCep.logradouro());
+            address.setState(viaCep.uf());
+            address.setCity(viaCep.localidade());
+            address.setNeighborhood(viaCep.bairro());
             address.setCountry("Brasil");
         }
     }
